@@ -1,0 +1,536 @@
+.Oval {
+    width: 40px;
+    height: 40px;
+    opacity: 0.2;
+    background-color: #08347a;
+    border-radius: 30px;
+    position: relative;
+}
+
+
+
+
+.HbA1cc {
+    width: fit-content;
+    margin: 1px 5px 0 0;
+    opacity: 0.5;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #111;
+}
+
+.alldatat {
+    display: flex;
+    gap: 8px;
+    height: 100%;
+}
+
+
+.HbA1cAllData {
+    flex-grow: 1;
+}
+
+.sevenpointwo {
+    /* margin: 0 13px 0 0; */
+    /* width: 32px; */
+    height: 26px;
+    /* margin: 0 13px 0 0; */
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #111;
+}
+
+/* .allInfo{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+} */
+
+.HbA1cHeartAndWeight {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bpHeightAndTemp {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* gap: 10px ; */
+}
+
+.perHB1Accand7-2 {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    max-width: 120px;
+}
+
+.column {
+    /* width: calc(50% - 5px); */
+    /* margin: 0 0px 28px 0px; */
+    /* margin-bottom: 28px; */
+    /* margin-right: 32px; */
+}
+
+.redline::before {
+    background-color: red;
+    height: 200px;
+}
+
+
+
+/* .box::before{
+    position: absolute;
+  content: '';
+  background: #283593;
+  height: auto;
+  width: 28px;
+} */
+
+.box {
+    width: 100%;
+    max-width: 356px;
+    margin: 16px;
+    padding: 16px 16px 16px;
+    border-radius: 16px;
+    background-color: #f1f1f1
+}
+
+
+.headingg {
+    /* margin: 12px 137px 8px 0; */
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.Investigationdate {
+    width: 100%;
+
+    margin: px 0 0;
+    opacity: 0.5;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #111;
+
+
+}
+
+.Investigationprofile {
+    width: 100%;
+
+    /* margin: 0 35px 9px 0; */
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.08px;
+    color: #111;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+
+
+}
+
+.Investigationhistroy {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.ChronicIllnesses {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.twoBox {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Started {
+    width: 74px;
+    height: 16px;
+    /* margin: 0 12px 2px 16px; */
+    opacity: 0.65;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #000;
+}
+
+
+
+.Jan {
+    width: 68px;
+    height: 22px;
+    /* margin: 2px 96px 0 12px; */
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #090909;
+}
+
+.startandjan {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* gap: 89px; */
+    /* margin-top: 12px; */
+
+}
+
+
+.box11 {
+    width: 100%;
+    max-width: 356px;
+    margin: 16px;
+    padding: 16px 16px 16px;
+    border-radius: 16px;
+    background-color: #f1f1f1;
+    height: fit-content;
+
+    border-left: solid red 15px;
+}
+
+
+
+.onebox {
+    display: flex;
+    justify-content: end;
+}
+
+.Investigatin {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.medicinecolumnone {
+    display: flex;
+    align-items: center;
+}
+
+.medicinecolumntwo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin: 12px 16px 14px 12px;
+}
+
+.medicinerow {
+    display: flex;
+    gap: 12px;
+}
+
+.medicinerow2 {
+    display: flex;
+}
+
+
+.medicine {
+    display: flex;
+    align-self: center;
+    gap: 13px;
+}
+
+.startdate {
+    width: 41.5%;
+}
+
+.allchipps {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.chipes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.investigatonbox {
+    display: flex;
+    gap: 8px;
+}
+
+
+.spann {
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: #111;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.allergy {
+    color: red;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+
+}
+
+.Allergies {
+    padding: 11px 16px 11px 12px;
+    border-radius: 10px;
+    box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.04), 0 3px 5px -1px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.Chronic-Illness {
+    font-family: 'Nunito Sans';
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.family {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.allVal {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.familyPerson {
+
+    font-family: Nunito Sans;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.08px;
+    color: #111;
+}
+
+.medication_history {
+    font-family: 'Nunito Sans';
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.medicinedatabox {
+    padding: 11px 16px 11px 12px;
+    border-radius: 10px;
+    box-shadow: 0 1px 18px 0 rgba(0, 0, 0, 0.04), 0 3px 5px -1px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 9px;
+    flex-direction: column;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.Investigationdateee {
+    width: 100%;
+    margin: px 0 0;
+    opacity: 0.5;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    color: #111;
+
+}
+
+.Investigationprofile11 {
+    width: 100%;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.08px;
+    color: #111;
+}
+
+.Investigation {
+    width: 100%;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.08px;
+    color: #111;
+}
+
+.Heading {
+    width: 100%;
+    font-family: Nunito Sans;
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.08px;
+    color: #111;
+    text-transform: capitalize;
+}
+
+.Chief_Complaints {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+
+}
+
+#one {
+    /* width: 72px; */
+}
+
+/* #two{
+    width: fit-content;
+} */
+
+.mediction {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.nameandDate {
+    display: flex;
+    width: 100%;
+}
+
+.Investigation12 {
+    display: flex;
+    width: 100%;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.08px;
+    color: #111;
+}
+
+.Datee {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.08px;
+    color: #111;
+}
+
+.allInfo {
+    color: black;
+}
+
+.vitals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.HbA1cHeartAndWeight {
+    width: calc(50% - 5px);
+}
+
+
+.fromDate {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.fromDate {
+    font-family: Nunito Sans;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.26px;
+    text-align: right;
+    color: #666;
+    margin-top: 16px;
+}

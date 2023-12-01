@@ -1,0 +1,918 @@
+[
+    {
+        "name": "Vitals",
+        "key_name": "vital",
+        "saved_date": "2023-11-28T07:30:44.305Z",
+        "items": [
+            [
+                {
+                    "vital": {
+                        "_id": "5e9b188b3ad72a082fc804c6",
+                        "name": "SpO2",
+                        "batch_type": "",
+                        "batch_name": ""
+                    },
+                    "value": "98",
+                    "unit": "%"
+                }
+            ],
+            [
+                {
+                    "vital": {
+                        "_id": "5e9b188b3ad72a082fc804c8",
+                        "name": "Temperature",
+                        "batch_type": "",
+                        "batch_name": ""
+                    },
+                    "value": "103",
+                    "unit": "°F"
+                }
+            ],
+            [
+                {
+                    "vital": {
+                        "_id": "5e9b188b3ad72a082fc804c9",
+                        "name": "Systolic BP",
+                        "batch_type": "BP",
+                        "batch_name": "Blood Pressure"
+                    },
+                    "value": "132",
+                    "unit": "mmHg"
+                },
+                {
+                    "vital": {
+                        "_id": "5e9b188b3ad72a082fc804ca",
+                        "name": "Diastolic BP",
+                        "batch_type": "BP",
+                        "batch_name": "Blood Pressure"
+                    },
+                    "value": "84",
+                    "unit": "mmHg"
+                }
+            ],
+            [
+                {
+                    "vital": {
+                        "_id": "5e9b188b3ad72a082fc804bc",
+                        "name": "HbA1c",
+                        "batch_type": "",
+                        "batch_name": ""
+                    },
+                    "value": "6.3",
+                    "unit": "%"
+                }
+            ],
+            [
+                {
+                    "vital": {
+                        "_id": "5e9b188b3ad72a082fc804c4",
+                        "name": "Weight",
+                        "batch_type": "",
+                        "batch_name": ""
+                    },
+                    "value": "75",
+                    "unit": "Kgs"
+                }
+            ],
+            [
+                {
+                    "vital": {
+                        "_id": "5e9b188b3ad72a082fc804c5",
+                        "name": "Height",
+                        "batch_type": "",
+                        "batch_name": ""
+                    },
+                    "value": "162",
+                    "unit": "Cms"
+                }
+            ]
+        ]
+    },
+    {
+        "name": "Medications",
+        "key_name": "medication",
+        "saved_date": "2023-11-28T07:27:53.360Z",
+        "items": [
+            {
+                "instructions": [
+                    {
+                        "_id": "6262624ea99b19ae0c2ce165",
+                        "name": "After food"
+                    }
+                ],
+                "dosage_type": "MAN",
+                "_id": "65659679b1c6ba2aeb9f4f91",
+                "medicine": {
+                    "_id": "5e9c41d08d855614bb095467",
+                    "brandname": "Allegra",
+                    "contents": "Fexofenadine",
+                    "form": "TAB",
+                    "formstrength": "120",
+                    "unit": "mg",
+                    "pack": "10",
+                    "mrp": "129.44",
+                    "multicontent": false,
+                    "contentsnoform": "Fexofenadine",
+                    "fullbrandname": "ALLEGRA 120 MG"
+                },
+                "frequency1": 0,
+                "frequency2": 0,
+                "frequency3": 1,
+                "duration": 2,
+                "duration_type": "Week",
+                "other_dosage": "",
+                "sos_dosage": 0,
+                "from_date": "2023-11-28T07:27:53.323Z",
+                "to_date": "2023-11-28T07:27:53.323Z",
+                "medication_type": "prescription"
+            },
+            {
+                "instructions": [
+                    {
+                        "_id": "6262624ea99b19ae0c2ce165",
+                        "name": "After food"
+                    }
+                ],
+                "dosage_type": "MAN",
+                "_id": "65659679b1c6ba2aeb9f4f92",
+                "medicine": {
+                    "_id": "5e9c41d18d855614bb09b54a",
+                    "brandname": "Diacart-G",
+                    "contents": "Diacerein 50mg, Gulcosamine 500mg",
+                    "form": "CAP",
+                    "formstrength": "",
+                    "unit": "",
+                    "pack": "5x10",
+                    "mrp": "99.99",
+                    "multicontent": true,
+                    "contentsnoform": "Diacerein + Gulcosamine",
+                    "fullbrandname": "DIACART-G 50MG / 500MG"
+                },
+                "frequency1": 0,
+                "frequency2": 1,
+                "frequency3": 0,
+                "duration": 1,
+                "duration_type": "Month",
+                "other_dosage": "",
+                "sos_dosage": 0,
+                "from_date": "2023-11-28T07:27:53.323Z",
+                "to_date": "2023-11-28T07:27:53.323Z",
+                "medication_type": "prescription"
+            },
+            {
+                "instructions": [
+                    {
+                        "_id": "6262624ea99b19ae0c2ce157",
+                        "name": "Before food"
+                    }
+                ],
+                "dosage_type": "MAN",
+                "_id": "65659679b1c6ba2aeb9f4f93",
+                "medicine": {
+                    "_id": "5e9c41d18d855614bb09c2a5",
+                    "brandname": "Neuromin Ea",
+                    "contents": "Mecobalamin 500mcg, Vit B6 3mg, Niacinamide 50mg, Chromium Picolinate 200mcg, Folic Acid 1mg, Elemental Zinc 15mg, Arginine 13.28mg, Histidine 3.71mg, Isoleucine 5.9mg, Leucine 18.3mg, Lysine 25mg, Methionine 9.2mg, Phenylalanine 5mg, Threonine 4.2mg, Valine 6.7mg, Alanine 11.9mg",
+                    "form": "CAP",
+                    "formstrength": "",
+                    "unit": "",
+                    "pack": "10",
+                    "mrp": "128.7",
+                    "multicontent": true,
+                    "contentsnoform": "Mecobalamin + Vit B6 + Niacina...",
+                    "fullbrandname": "NEUROMIN EA 500MCG / 6 3MG / 50MG / 200MCG"
+                },
+                "frequency1": 1,
+                "frequency2": 0,
+                "frequency3": 0,
+                "duration": 10,
+                "duration_type": "Day",
+                "other_dosage": "",
+                "sos_dosage": 0,
+                "from_date": "2023-11-28T07:27:53.324Z",
+                "to_date": "2023-11-28T07:27:53.324Z",
+                "medication_type": "prescription"
+            }
+        ]
+    },
+    {
+        "name": "Investigations",
+        "key_name": "investigation",
+        "saved_date": "2023-11-21T14:14:36.720Z",
+        "items": [
+            {
+                "_id": "5e9b17c13ad72a082fc803da",
+                "name": "Lipid Profile"
+            },
+            {
+                "_id": "5e9b17c13ad72a082fc803d0",
+                "name": "Fasting Blood Sugar"
+            }
+        ]
+    },
+    {
+        "name": "Provisional Diagnosis",
+        "key_name": "diagnosis",
+        "saved_date": "2023-11-21T14:14:36.720Z",
+        "items": [
+            {
+                "_id": "5e9b2bdf3ad72a082fc85d94",
+                "name": "Obesity"
+            },
+            {
+                "_id": "5e9b2bdf3ad72a082fc85d8f",
+                "name": "Hyperlipidemia"
+            }
+        ]
+    },
+    {
+        "name": "Advices",
+        "key_name": "advice",
+        "saved_date": "2023-11-28T07:27:53.360Z",
+        "items": [
+            {
+                "advice": "Monitor your blood sugar, and follow your health care provider's instructions for managing your blood sugar level. Get plenty of sleep. And above all, stay positive."
+            }
+        ]
+    },
+    {
+        "name": "Next Visits",
+        "key_name": "next_visit",
+        "saved_date": "2023-11-21T14:14:36.720Z",
+        "items": [
+            {
+                "next_visit_frequency": 2,
+                "next_visit_type": "WEEK",
+                "next_visit_date": "2023-11-21T14:14:36.704Z"
+            }
+        ]
+    },
+    {
+        "name": "Documents",
+        "key_name": "report",
+        "saved_date": "2023-11-28T07:48:03.889Z",
+        "items": [
+            {
+                "_id": "65659b33b1c6ba2aeb9f55cc",
+                "fileName": "Electrocardiography-sample-report-of-long-recording-60-s-taken-by-SanketLife.png",
+                "category": {
+                    "_id": "61fb54b17ec3f80f60eec15e",
+                    "name": "ECG",
+                    "description": ""
+                },
+                "extension": "image/png",
+                "filePath": "Electrocardiography-sample-report-of-long-recording-60-s-taken-by-SanketLife.png",
+                "uploadedBy": "doctor",
+                "fileS3Name": "Electrocardiography-sample-report-of-long-recording-60-s-taken-by-SanketLife.png6565913bb1c6ba2aeb9f497b65659141b1c6ba2aeb9f49dc1701157439168.png",
+                "date": "2023-11-28T07:48:03.883Z"
+            },
+            {
+                "_id": "65659b33b1c6ba2aeb9f55cd",
+                "fileName": "Plain-X-ray-chest-showing-mild-prominent-central-linear-lung-shadowing-mainly-vascular.png",
+                "category": {
+                    "_id": "61fb54897ec3f80f60eea30c",
+                    "name": "X-Ray",
+                    "description": ""
+                },
+                "extension": "image/png",
+                "filePath": "Plain-X-ray-chest-showing-mild-prominent-central-linear-lung-shadowing-mainly-vascular.png",
+                "uploadedBy": "doctor",
+                "fileS3Name": "Plain-X-ray-chest-showing-mild-prominent-central-linear-lung-shadowing-mainly-vascular.png6565913bb1c6ba2aeb9f497b65659141b1c6ba2aeb9f49dc1701157439168.png",
+                "date": "2023-11-28T07:48:03.883Z"
+            },
+            {
+                "_id": "65659b33b1c6ba2aeb9f55cb",
+                "fileName": "urine analysis report.jpg",
+                "category": {
+                    "_id": "61fb54767ec3f80f60ee88fd",
+                    "name": "Lab Report",
+                    "description": ""
+                },
+                "extension": "image/jpeg",
+                "filePath": "urine analysis report.jpg",
+                "uploadedBy": "doctor",
+                "fileS3Name": "urine analysis report.jpg6565913bb1c6ba2aeb9f497b65659141b1c6ba2aeb9f49dc1701157439168.jpg",
+                "date": "2023-11-28T07:48:03.883Z"
+            }
+        ]
+    },
+    {
+        "name": "Allergies",
+        "key_name": "allergy",
+        "saved_date": "2023-11-28T07:30:44.262Z",
+        "items": [
+            {
+                "_id": "5e9b2a2b3ad72a082fc85bef",
+                "name": "Vinorelbine"
+            },
+            {
+                "_id": "5e9b2a2b3ad72a082fc85bed",
+                "name": "Trandolapril"
+            },
+            {
+                "_id": "5e9b2a2b3ad72a082fc85bdb",
+                "name": "Penicillin G benzathine"
+            },
+            {
+                "_id": "5e9b2a2b3ad72a082fc85bdd",
+                "name": "Rituximab"
+            }
+        ]
+    },
+    {
+        "name": "Chief Complaints",
+        "key_name": "chief_complaint",
+        "saved_date": "2023-11-20T07:27:53.360Z",
+        "items": [
+            {
+                "_id": "65659679b1c6ba2aeb9f4f9b",
+                "chief_complaint": {
+                    "_id": "62a30adcecc3c4e5867e2197",
+                    "name": "Elevated levels of transaminase & lactic acid dehydrogenase"
+                },
+                "severity": "Medium",
+                "duration": 3,
+                "duration_type": "day"
+            },
+            {
+                "_id": "65659679b1c6ba2aeb9f4f9c",
+                "chief_complaint": {
+                    "_id": "62a30adcecc3c4e5867e2146",
+                    "name": "Type II diabetes mellitus uncontrolled"
+                },
+                "severity": "High",
+                "duration": 1,
+                "duration_type": "week"
+            },
+            {
+                "_id": "65659679b1c6ba2aeb9f4f9d",
+                "chief_complaint": {
+                    "_id": "62a30adcecc3c4e5867e216f",
+                    "name": "Elevated blood-pressure without HT"
+                },
+                "severity": "Medium",
+                "duration": 9,
+                "duration_type": "day"
+            }
+        ]
+    },
+    {
+        "name": "Chronic Illness",
+        "key_name": "chronic_illness",
+        "saved_date": "2023-11-28T07:16:35.218Z",
+        "items": [
+            {
+                "chronic_illness": {
+                    "_id": "5e9b2b333ad72a082fc85d06",
+                    "name": "Asthma"
+                },
+                "date": "2016-01-31T18:30:00.000Z"
+            },
+            {
+                "chronic_illness": {
+                    "_id": "5e9b2b333ad72a082fc85cfc",
+                    "name": "High Cholesterol"
+                },
+                "date": "2021-09-30T18:30:00.000Z"
+            },
+            {
+                "chronic_illness": {
+                    "_id": "5e9b2b333ad72a082fc85cfd",
+                    "name": "Obesity"
+                },
+                "date": "2016-09-30T18:30:00.000Z"
+            },
+            {
+                "chronic_illness": {
+                    "_id": "5e9b2b333ad72a082fc85d15",
+                    "name": "Depression"
+                },
+                "date": "2022-11-30T18:30:00.000Z"
+            },
+            {
+                "chronic_illness": {
+                    "_id": "5e9b2b333ad72a082fc85cfb",
+                    "name": "Hypertension"
+                },
+                "date": "2005-01-31T18:30:00.000Z"
+            },
+            {
+                "chronic_illness": {
+                    "_id": "5e9b2b333ad72a082fc85cf8",
+                    "name": "Diabetes Mellitus Type 1"
+                },
+                "date": "2014-08-31T18:30:00.000Z"
+            }
+        ]
+    },
+    {
+        "name": "System Review",
+        "key_name": "system_review",
+        "saved_date": "2023-11-28T07:16:35.224Z",
+        "items": [
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f90",
+                    "name": "Central Nervous System (CNS)"
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb61fe1",
+                        "name": "Burning"
+                    },
+                    {
+                        "_id": "5ea2e249d4966c16afb61fe2",
+                        "name": "Seizures"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f88",
+                    "name": "Eyes"
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb61fb9",
+                        "name": "With Glasses - Farsighted"
+                    },
+                    {
+                        "_id": "5ea2e249d4966c16afb61fba",
+                        "name": "Glaucoma"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f8e",
+                    "name": "Genitourinary (GU)"
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb61fd5",
+                        "name": "Dysuria"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f97",
+                    "name": "Neurological"
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb62012",
+                        "name": "Numbness in Hands"
+                    },
+                    {
+                        "_id": "5ea2e249d4966c16afb62010",
+                        "name": "Chronic Headache"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f91",
+                    "name": "Hematologic "
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb61fe8",
+                        "name": "Lymph Nodes"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f95",
+                    "name": "Respiratory"
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb62006",
+                        "name": "Pneumonia"
+                    },
+                    {
+                        "_id": "5ea2e249d4966c16afb62009",
+                        "name": "Asthma"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f93",
+                    "name": "Psychiatric"
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb61ff3",
+                        "name": "Mood Swings"
+                    },
+                    {
+                        "_id": "5ea2e249d4966c16afb61ff1",
+                        "name": "Depressed"
+                    },
+                    {
+                        "_id": "5ea2e249d4966c16afb61ffe",
+                        "name": "Anxiousness"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f8b",
+                    "name": "Ear Nose Throat (ENT)"
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb61fc9",
+                        "name": "Headache"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f8a",
+                    "name": "Skin"
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb61fc4",
+                        "name": "Rash"
+                    },
+                    {
+                        "_id": "5ea2e249d4966c16afb61fc3",
+                        "name": "Itching"
+                    },
+                    {
+                        "_id": "5ea2e249d4966c16afb61fc5",
+                        "name": "Allergy"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "_id": "5ea2e21dd4966c16afb61f92",
+                    "name": "Immunologic"
+                },
+                "system_reviews": [
+                    {
+                        "_id": "5ea2e249d4966c16afb61ff5",
+                        "name": "Easily Bleed"
+                    },
+                    {
+                        "_id": "5ea2e249d4966c16afb61fe6",
+                        "name": "Anemia"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Family History",
+        "key_name": "family_history",
+        "saved_date": "2023-11-28T07:16:35.234Z",
+        "items": [
+            {
+                "family_relation": "father",
+                "family_history": [
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c81",
+                        "name": "Diabetes Mellitus Type 2"
+                    },
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c8b",
+                        "name": "Hypothyroidism"
+                    },
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c63",
+                        "name": "Endocrine Disorder"
+                    }
+                ]
+            },
+            {
+                "family_relation": "maternal_grand_mother",
+                "family_history": [
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c8c",
+                        "name": "Ischemic Heart Disease"
+                    }
+                ]
+            },
+            {
+                "family_relation": "paternal_grand_mother",
+                "family_history": [
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c67",
+                        "name": "Obesity"
+                    }
+                ]
+            },
+            {
+                "family_relation": "paternal_grand_father",
+                "family_history": [
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c81",
+                        "name": "Diabetes Mellitus Type 2"
+                    }
+                ]
+            },
+            {
+                "family_relation": "brother",
+                "relation_number": 1,
+                "family_history": [
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c80",
+                        "name": "Diabetes Mellitus Type 1"
+                    },
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c65",
+                        "name": "Hypertension"
+                    },
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c68",
+                        "name": "Coronory Artery Disease"
+                    },
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c66",
+                        "name": "High Cholesterol"
+                    }
+                ]
+            },
+            {
+                "family_relation": "mother",
+                "family_history": [
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c66",
+                        "name": "High Cholesterol"
+                    },
+                    {
+                        "_id": "5e9b2adf3ad72a082fc85c70",
+                        "name": "Asthma"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Medication History",
+        "key_name": "medication_history",
+        "saved_date": "2023-11-28T07:16:35.240Z",
+        "items": [
+            {
+                "medicine": {
+                    "_id": "5e9c41d18d855614bb09a088",
+                    "brandname": "Thyronorm",
+                    "contents": "Levothyroxine",
+                    "form": "TAB",
+                    "formstrength": "100",
+                    "unit": "mcg",
+                    "pack": "100",
+                    "mrp": "166.25",
+                    "multicontent": false,
+                    "contentsnoform": "Levothyroxine",
+                    "fullbrandname": "THYRONORM 100 MCG"
+                },
+                "dosage_type": "MAN",
+                "frequency1": 0,
+                "frequency2": 1,
+                "frequency3": 1,
+                "sos_dosage": 0,
+                "other_dosage": "",
+                "medstatus": "discontinued",
+                "from_date": "2009-06-30T18:30:00.000Z",
+                "to_date": "2009-07-28T18:30:00.000Z",
+                "duration": 4,
+                "duration_type": "Week"
+            },
+            {
+                "medicine": {
+                    "_id": "5e9c41d18d855614bb09e83f",
+                    "brandname": "Janumet Xr Cp",
+                    "contents": "Sitagliptin 100mg, Metformin 1000mg",
+                    "form": "TAB",
+                    "formstrength": "",
+                    "unit": "",
+                    "pack": "7",
+                    "mrp": "334.61",
+                    "multicontent": true,
+                    "contentsnoform": "Sitagliptin + Metformin",
+                    "fullbrandname": "JANUMET XR CP 100MG / 1000MG"
+                },
+                "dosage_type": "MAN",
+                "frequency1": 0,
+                "frequency2": 1,
+                "frequency3": 0,
+                "sos_dosage": 0,
+                "other_dosage": "",
+                "medstatus": "discontinued",
+                "from_date": "2018-02-28T18:30:00.000Z",
+                "to_date": "2018-07-31T18:30:00.000Z",
+                "duration": 5,
+                "duration_type": "Month"
+            },
+            {
+                "medicine": {
+                    "_id": "5e9c41d08d855614bb096c5f",
+                    "brandname": "Eltroxin",
+                    "contents": "Levothyroxine",
+                    "form": "TAB",
+                    "formstrength": "100",
+                    "unit": "mcg",
+                    "pack": "100",
+                    "mrp": "126.12",
+                    "multicontent": false,
+                    "contentsnoform": "Levothyroxine",
+                    "fullbrandname": "ELTROXIN 100 MCG"
+                },
+                "dosage_type": "MAN",
+                "frequency1": 1,
+                "frequency2": 0,
+                "frequency3": 0,
+                "sos_dosage": 0,
+                "other_dosage": "",
+                "medstatus": "on-going",
+                "from_date": "2015-11-30T18:30:00.000Z",
+                "to_date": "2015-11-30T18:30:00.000Z",
+                "duration": null,
+                "duration_type": null
+            },
+            {
+                "medicine": {
+                    "_id": "5e9c41d08d855614bb0979b1",
+                    "brandname": "Januvia",
+                    "contents": "Sitagliptin",
+                    "form": "TAB",
+                    "formstrength": "100",
+                    "unit": "mg",
+                    "pack": "7",
+                    "mrp": "314.63",
+                    "multicontent": false,
+                    "contentsnoform": "Sitagliptin",
+                    "fullbrandname": "JANUVIA 100 MG"
+                },
+                "dosage_type": "MAN",
+                "frequency1": 0,
+                "frequency2": 0,
+                "frequency3": 1,
+                "sos_dosage": 0,
+                "other_dosage": "",
+                "medstatus": "discontinued",
+                "from_date": "2013-04-30T18:30:00.000Z",
+                "to_date": "2015-04-30T18:30:00.000Z",
+                "duration": 2,
+                "duration_type": "Year"
+            },
+            {
+                "medicine": {
+                    "_id": "5e9c41d08d855614bb097567",
+                    "brandname": "Glycomet",
+                    "contents": "Metformin",
+                    "form": "TAB",
+                    "formstrength": "250",
+                    "unit": "mg",
+                    "pack": "10",
+                    "mrp": "9.82",
+                    "multicontent": false,
+                    "contentsnoform": "Metformin",
+                    "fullbrandname": "GLYCOMET 250 MG"
+                },
+                "dosage_type": "MAN",
+                "frequency1": 1,
+                "frequency2": 0,
+                "frequency3": 1,
+                "sos_dosage": 0,
+                "other_dosage": "",
+                "medstatus": "on-going",
+                "from_date": "2020-09-30T18:30:00.000Z",
+                "to_date": "2020-09-30T18:30:00.000Z",
+                "duration": null,
+                "duration_type": null
+            }
+        ]
+    },
+    {
+        "name": "Investigation History",
+        "key_name": "investigation_history",
+        "saved_date": "2023-11-28T07:43:37.682Z",
+        "items": [
+            {
+                "params": [
+                    {
+                        "_id": "65659a27b1c6ba2aeb9f54d8",
+                        "param": {
+                            "_id": "5e9b188b3ad72a082fc804bc",
+                            "name": "HbA1c",
+                            "batch_type": "",
+                            "batch_name": ""
+                        },
+                        "value": "6.3",
+                        "unit": "%",
+                        "interpretation": "Normal",
+                        "notes": ""
+                    }
+                ],
+                "investigation": {
+                    "_id": "5e9b17c13ad72a082fc803dc",
+                    "name": "Diabetes Panel"
+                },
+                "date": "2017-09-25T18:30:00.000Z"
+            },
+            {
+                "params": [
+                    {
+                        "_id": "65659a27b1c6ba2aeb9f54db",
+                        "param": {
+                            "_id": "5e9b188b3ad72a082fc804a7",
+                            "name": "Urine Physical - Colour",
+                            "batch_type": "",
+                            "batch_name": ""
+                        },
+                        "value": "yellow",
+                        "unit": null,
+                        "interpretation": "Normal",
+                        "notes": ""
+                    },
+                    {
+                        "_id": "65659a27b1c6ba2aeb9f54dc",
+                        "param": {
+                            "_id": "5e9b188b3ad72a082fc804a8",
+                            "name": "Urine Physical - Specific Gravity",
+                            "batch_type": "",
+                            "batch_name": ""
+                        },
+                        "value": "1.005",
+                        "unit": null,
+                        "interpretation": "Normal",
+                        "notes": ""
+                    },
+                    {
+                        "_id": "65659a27b1c6ba2aeb9f54dd",
+                        "param": {
+                            "_id": "5e9b188b3ad72a082fc804a9",
+                            "name": "Urine Physical - pH",
+                            "batch_type": "",
+                            "batch_name": ""
+                        },
+                        "value": "6.2",
+                        "unit": null,
+                        "interpretation": "Normal",
+                        "notes": ""
+                    },
+                    {
+                        "_id": "65659a27b1c6ba2aeb9f54de",
+                        "param": {
+                            "_id": "5e9b188b3ad72a082fc804ab",
+                            "name": "Urine Chemical - Glucose ",
+                            "batch_type": "",
+                            "batch_name": ""
+                        },
+                        "value": "124",
+                        "unit": null,
+                        "interpretation": "",
+                        "notes": ""
+                    },
+                    {
+                        "_id": "65659a27b1c6ba2aeb9f54df",
+                        "param": {
+                            "_id": "5e9b188b3ad72a082fc804ac",
+                            "name": "Urine Chemical - Ketones ",
+                            "batch_type": "",
+                            "batch_name": ""
+                        },
+                        "value": "none",
+                        "unit": null,
+                        "interpretation": "",
+                        "notes": ""
+                    }
+                ],
+                "investigation": {
+                    "_id": "5e9b17c13ad72a082fc803cc",
+                    "name": "Urinalysis"
+                },
+                "date": "2023-11-28T07:41:31.510Z"
+            },
+            {
+                "params": [
+                    {
+                        "_id": "65659a27b1c6ba2aeb9f54e6",
+                        "param": {
+                            "_id": "5e9b188b3ad72a082fc804c6",
+                            "name": "SpO2",
+                            "batch_type": "",
+                            "batch_name": ""
+                        },
+                        "value": "98",
+                        "unit": "%",
+                        "interpretation": "Normal",
+                        "notes": ""
+                    }
+                ],
+                "investigation": {
+                    "_id": "5e9b17c13ad72a082fc803e0",
+                    "name": "SpO2"
+                },
+                "date": "2023-11-28T07:43:17.562Z"
+            }
+        ]
+    }
+]
